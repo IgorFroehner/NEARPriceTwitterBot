@@ -1,1 +1,1 @@
-start: python4 -m main
+start: python3 -m main
