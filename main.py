@@ -28,4 +28,4 @@ if __name__ == '__main__':
             api.update_status(f'1 $NEAR = {price} #BRL agora. ({percent_change_24h} % nas últimas 24hrs)')
         except tweepy.TweepError as e:
             print('Error while tweeting: ' + e.reason)
-        sleep(3600)
+        sleep(43200)
