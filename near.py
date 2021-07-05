@@ -1,5 +1,3 @@
-import os
-
 from decouple import config
 from requests import Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects

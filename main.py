@@ -1,5 +1,3 @@
-
-import os
 from near import Near
 from time import sleep
 from decouple import config
@@ -7,15 +5,14 @@ from decouple import config
 import tweepy
 
 if __name__ == '__main__':
-
     API_KEY = config('TWITTER_API_KEY')
-    API_SECRET_KEY = config('TWITTER_API_SECRET_KEY')
+    SECRET_API_KEY = config('TWITTER_SECRET_API_KEY')
 
-    ACCESS_TOKEN = config('ACCESS_TOKEN')
-    ACCESS_TOKEN_SECRET = config('ACCESS_TOKEN_SECRET')
+    ACCESS_TOKEN = config('TWITTER_ACCESS_TOKEN')
+    SECRET_ACCESS_TOKEN = config('TWITTER_SECRET_ACCESS_TOKEN')
 
-    auth = tweepy.OAuthHandler(API_KEY, API_SECRET_KEY)
-    auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+    auth = tweepy.OAuthHandler(API_KEY, SECRET_API_KEY)
+    auth.set_access_token(ACCESS_TOKEN, SECRET_ACCESS_TOKEN)
 
     api = tweepy.API(auth)
 
