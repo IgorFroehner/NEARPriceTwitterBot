@@ -11,7 +11,7 @@ Esse projeto foi feito usando `Python 3.9.6`
 1. Instale as dependencias: `pip install -r requirements.txt`
 2. Crie um arquivo .env: `mv .env.example .env`
 3. Popule o arquivo .env com as credenciais (tutorial abaixo)
-4. Rode `python main.rb`
+4. Rode `python3 main.py`
 
 ## Pegar Credenciais
 
@@ -25,8 +25,8 @@ Esse projeto foi feito usando `Python 3.9.6`
 2. Espere... Eles demoram algumas horas para aprovar seu pedido
 3. Crie um projeto
 4. Crie um app
-5. Regenere e pege as Consumer Keys (`TWITTER_API_KEY` and `TWITTER_SECRET_API_KEY`)
-6. Regenere e pege as Authentication Tokens (`TWITTER_ACCESS_TOKEN` and `TWITTER_SECRET_ACCESS_TOKEN`)
+5. Regere e pege as Consumer Keys (`TWITTER_API_KEY` and `TWITTER_SECRET_API_KEY`)
+6. Regere e pege as Authentication Tokens (`TWITTER_ACCESS_TOKEN` and `TWITTER_SECRET_ACCESS_TOKEN`)
 
 ---
 
@@ -41,7 +41,7 @@ This project was made using `Python 3.9.6`
 1. Install dependencies: `pip install -r requirements.txt`
 2. Create .env file: `mv .env.example .env`
 3. Populate the .env file with credentials (tutorial below)
-4. Run `python main.rb`
+4. Run `python3 main.py`
 
 ## Get Credentials
 
