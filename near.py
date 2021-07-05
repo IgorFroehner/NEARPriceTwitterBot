@@ -5,15 +5,14 @@ import json
 
 
 class Near:
-
     def __init__(self):
         self.crypto_symbol = 'NEAR'
+        self.currency = config('CURRENCY_TO_CONVERT')
 
     def getData(self):
-
         url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
         parameters = {
-            'convert': 'BRL',
+            'convert': self.currency,
             'symbol': self.crypto_symbol
         }
         headers = {
@@ -31,8 +30,8 @@ class Near:
                 print('erro', data['status'])
             else:
                 return {
-                    'price': data['data'][self.crypto_symbol]['quote']['BRL']['price'],
-                    'percent_change_24h': data['data'][self.crypto_symbol]['quote']['BRL']['percent_change_24h']
+                    'price': data['data'][self.crypto_symbol]['quote'][self.currency]['price'],
+                    'percent_change_24h': data['data'][self.crypto_symbol]['quote'][self.currency]['percent_change_24h']
                 }
         except (ConnectionError, Timeout, TooManyRedirects) as e:
-            raise Exception("Error while ")
+            raise Exception('Error while trying to get the price and percentage: ' + e.reason)
