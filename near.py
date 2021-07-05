@@ -1,5 +1,4 @@
-import os
-
+from decouple import config
 from requests import Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
@@ -19,7 +18,7 @@ class Near:
         }
         headers = {
             'Accepts': 'application/json',
-            'X-CMC_PRO_API_KEY': os.environ['CMC_API_KEY'],
+            'X-CMC_PRO_API_KEY': config('CMC_API_KEY'),
         }
 
         session = Session()
