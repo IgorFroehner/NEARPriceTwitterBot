@@ -39,7 +39,7 @@ Esse projeto foi feito usando `Python 3.9.6`
 
 #### Tweets por dia
 
-1. Adicione quantas Tweets você quer que seja mandado por dia para a env `TWEETS_PER_DAY`
+1. Adicione quantos Tweets você quer que seja mandado por dia para a env `TWEETS_PER_DAY`
 
 ---
 
