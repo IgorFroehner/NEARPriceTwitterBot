@@ -1,4 +1,4 @@
-# NEAR To BRL price on Twitter
+# NEAR Token price on Twitter
 
 * [Português](#portugus)
 * [English](#english)
