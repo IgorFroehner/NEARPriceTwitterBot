@@ -27,7 +27,7 @@ class Near:
             response = session.get(url, params=parameters)
             data = json.loads(response.text)
             if data['status']['error_code'] != 0:
-                print('erro', data['status'])
+                raise Exception('Error while retrieving data from the API')
             else:
                 return {
                     'price': data['data'][self.crypto_symbol]['quote'][self.currency]['price'],

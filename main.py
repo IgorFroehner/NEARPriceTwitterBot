@@ -25,8 +25,8 @@ if __name__ == '__main__':
 
     while True:
         data = near.getData()
-        price = f'{data['price']:.2f}'
-        percent_change_24h = f'{data['percent_change_24h']:.2f}'
+        price = f"{data['price']:.2f}"
+        percent_change_24h = f"{data['percent_change_24h']:.2f}"
 
         try:
             api.update_status(f'1 $NEAR = {price} #{CURRENCY} ({percent_change_24h}% {TEXT_LAST_24_HRS})')
