@@ -30,7 +30,7 @@ Esse projeto foi feito usando `Python 3.9.6`
 3. Crie um projeto
 4. Crie um app
 5. Regere e pege as Consumer Keys (`TWITTER_API_KEY` and `TWITTER_SECRET_API_KEY`)
-6. Regere e pege as Authentication Tokens (`TWITTER_ACCESS_TOKEN` and `TWITTER_SECRET_ACCESS_TOKEN`). É possível fazer essa 
+6. Regere e pege as Authentication Tokens (`TWITTER_ACCESS_TOKEN` e `TWITTER_SECRET_ACCESS_TOKEN`).
    parte usando o script `get_token.py`.
 
 ## Mude a Moeda, Texto and Tweets por dia
