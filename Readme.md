@@ -1,8 +1,12 @@
 # NEAR To BRL price on Twitter
 
+* [Português](#portugus)
+* [English](#english)
+
+# Português
 :brazil: :brazil: :brazil:
 
-Tweeta o preço de NEAR convertido para BRL duas vezes por dia. Você pode conferir um exemplo [aqui](https://twitter.com/NearBrl).
+Tweeta o preço de NEAR convertido para BRL duas vezes por dia. Esse código roda esse perfil [aqui](https://twitter.com/NearBrl).
 
 ## Configuração
 
@@ -41,11 +45,12 @@ Esse projeto foi feito usando `Python 3.9.6`
 
 1. Adicione quantos Tweets você quer que seja mandado por dia para a env `TWEETS_PER_DAY`
 
-## Exemplo BRL
+### Exemplo BRL
 
 ![Exemplo](./screenshots/twitterBRL.png)
 
----
+# English
+
 
 :us: :us: :us:
 
