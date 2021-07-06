@@ -9,7 +9,7 @@ if __name__ == '__main__':
     auth = tweepy.OAuthHandler(API_KEY, SECRET_API_KEY)
 
     redirect_url = auth.get_authorization_url()
-    print(f"Enter in this url: {redirect_url}")
+    print(f"Access this url: {redirect_url}")
 
     verifier = input('Input the verifier token here: ')
 
