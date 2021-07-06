@@ -11,7 +11,7 @@ if __name__ == '__main__':
     redirect_url = auth.get_authorization_url()
     print(f"Access this url: {redirect_url}")
 
-    verifier = input('Input the verifier token here: ')
+    verifier = input('Paste the verifier token here: ')
 
     token = None
     try:
