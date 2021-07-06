@@ -1,4 +1,3 @@
-
 from time import sleep
 from decouple import config
 
