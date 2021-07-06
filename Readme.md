@@ -4,7 +4,7 @@
 
 Tweeta o preço de NEAR convertido para BRL duas vezes por dia. Você pode conferir um exemplo [aqui](https://twitter.com/NearBrl).
 
-## Setup
+## Configuração
 
 Esse projeto foi feito usando `Python 3.9.6`
 
@@ -40,6 +40,10 @@ Esse projeto foi feito usando `Python 3.9.6`
 #### Tweets por dia
 
 1. Adicione quantos Tweets você quer que seja mandado por dia para a env `TWEETS_PER_DAY`
+
+## Exemplo BRL
+
+![Exemplo](./screenshots/twitterBRL.png)
 
 ---
 
