@@ -1,7 +1,5 @@
-
 from decouple import config
 import tweepy
-
 
 class Twitter:
     def __init__(self):
