@@ -13,11 +13,10 @@ if __name__ == '__main__':
 
     verifier = input('Paste the verifier token here: ')
 
-    token = None
     try:
         token = auth.get_access_token(verifier)
+
+        print(f'TWITTER_ACCESS_TOKEN: {token[0]}')
+        print(f'TWITTER_SECRET_ACCESS_TOKEN: {token[1]}')
     except tweepy.TweepError:
         print('Error! Failed to get access token.')
-
-    print(f'TWITTER_ACCESS_TOKEN: {token[0]}')
-    print(f'TWITTER_SECRET_ACCESS_TOKEN: {token[1]}')
