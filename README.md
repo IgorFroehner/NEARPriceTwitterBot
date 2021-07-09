@@ -55,7 +55,7 @@ Esse projeto foi feito usando `Python 3.9.6`
 
 :us: :us: :us:
 
-Tweets the NEAR price converted to BRL twice a day. You can check an example [here](https://twitter.com/NearBrl).
+Tweets the NEAR price converted to BRL twice a day. You can check an example for USD price [here](https://twitter.com/NEARtoUSD).
 
 ## Setup
 
