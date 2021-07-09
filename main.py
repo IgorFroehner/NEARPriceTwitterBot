@@ -1,8 +1,8 @@
 from time import sleep
 from decouple import config
 
-from near import Near
-from twitter import Twitter
+from bot.near import Near
+from bot.twitter import Twitter
 
 if __name__ == '__main__':
 

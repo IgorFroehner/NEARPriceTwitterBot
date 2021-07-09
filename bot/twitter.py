@@ -1,6 +1,7 @@
 from decouple import config
 import tweepy
 
+
 class Twitter:
     def __init__(self):
         self.API_KEY = config('TWITTER_API_KEY')
