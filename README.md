@@ -1,6 +1,6 @@
 # NEAR Token price on Twitter
 
-* [Português](#portugus)
+* [Português](#português)
 * [English](#english)
 
 # Português
